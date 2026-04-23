@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Tech Community | Multimedia</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Tech Community</h1>
+    </header>
+
+    <nav>
+        <a href="./index.html">Beranda</a>
+        <a href="./form.html">Daftar Anggota</a>
+        <a href="./gallery.html">Multimedia</a>
+    </nav>
+
+    <div class="container">
+        <h2 style="text-align: center;">Galeri Komunitas</h2>
+        
+        <hr>
+
+        <h3>Gambar</h3>
+        <img id="gambar" src="Selebrasi.webp" alt="Foto Bang DODO" width="100%">
+        <br><br>
+        <button onclick="gantiGambar()">Ganti Gambar</button>
+
+        <hr>
+
+        <h3>Audio</h3>
+        <audio id="Siuuu" controls>
+            <source src="ronaldo-siuuuu.mp3" type="audio/mpeg">
+        </audio>
+        <br><br>
+        <button onclick="NyalainnAudio()">Nyalain Audio</button>
+        <button onclick="stopAudio()" style="background-color: red;">Stop Audio</button>
+
+        <hr>
+
+        <h3>Video</h3>
+        <iframe width="100%" height="400" src="Cristano_Salto_Gol.mp4"></iframe>
+
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+</html>
