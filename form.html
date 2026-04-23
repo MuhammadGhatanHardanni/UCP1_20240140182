@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Tech Community | Pendaftaran</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Tech Community</h1>
+    </header>
+
+    <nav>
+        <a href="./index.html">Beranda</a>
+        <a href="./form.html">Daftar Anggota</a>
+        <a href="./gallery.html">Gallery</a>
+    </nav>
+
+    <div class="container">
+        <h2>Pendaftaran Anggota Baru</h2>
+        
+        <form id="formDaftar">
+            <label>Nama Lengkap:</label>
+            <input type="text" id="nama" required>
+
+            <label>Email:</label>
+            <input type="email" id="email" required>
+
+            <label>Bidang Peminatan:</label>
+            <select id="minat" required>
+                <option value="Web Development">Web Development</option>
+                <option value="Cybersecurity">Cybersecurity</option>
+                <option value="Database">Database Management</option>
+            </select>
+
+            <button type="submit">Simpan</button>
+            <a href="./index.html" style="margin-left: 10px; text-decoration: none; color: blue;">Kembali Ke Beranda</a>
+        </form>
+
+        <h4 id="hasilInput" style="color: green; margin-top: 20px;"></h4>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+</html>
